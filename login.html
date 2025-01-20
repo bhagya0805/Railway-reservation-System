@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50; /* Green background for the header */
+    color: white; /* White text color */
+    padding: 10px 0; /* Padding for the header */
+    text-align: center; /* Center align the header text */
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullet points from the list */
+    padding: 0; /* Remove padding from the list */
+}
+
+nav ul li {
+    display: inline; /* Display list items inline */
+    margin: 0 15px; /* Margin between list items */
+}
+
+nav ul li a {
+    color: white; /* White text color for links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+main {
+    padding: 20px; /* Padding for the main content area */
+}
+
+h2 {
+    color: #4CAF50; /* Green color for headings */
+}
+
+form {
+    max-width: 400px; /* Maximum width for the form */
+    margin: auto; /* Center the form */
+    padding: 20px; /* Padding inside the form */
+    border: 1px solid #ddd; /* Light grey border for the form */
+    border-radius: 5px; /* Rounded corners for the form */
+}
+
+label {
+    display: block; /* Display labels as block elements */
+    margin: 10px 0 5px; /* Margin for labels */
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%; /* Full width for input fields */
+    padding: 10px; /* Padding inside input fields */
+    margin-bottom: 15px; /* Margin below input fields */
+    border: 1px solid #ddd; /* Light grey border for input fields */
+    border-radius: 4px; /* Rounded corners for input fields */
+}
+
+input[type="submit"] {
+    background-color: #4CAF50; /* Green background for submit button */
+    color: white; /* White text color for button */
+    padding: 10px; /* Padding for button */
+    border: none; /* No border for button */
+    border-radius: 4px; /* Rounded corners for button */
+    cursor: pointer; /* Pointer cursor for button */
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+footer {
+    text-align: center; /* Center align footer text */
+    padding: 10px 0; /* Padding for the footer */
+    background-color: #f1f1f1; /* Light grey background for footer */
+    position: relative; /* Positioning for footer */
+    bottom: 0; /* Align footer to the bottom */
+    width: 100%; /* Full width for footer */
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Railway Reservation System</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="contact.html"></a>Contact Us</li>
+                <li><a href="scheduling.html"></a>Scheduling</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Login</h2>
+        <form>
+            <label for="username">UserName:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password:</label>
+            <input type="paasword" id="password" name="password" required>
+            <button type ="submit">Login</button>
+        </form>
+        </main>
+        <footer>
+            <p>&copy; 2023 Railway Reservation System</p>
+        </footer>
+</body>
+</html>
